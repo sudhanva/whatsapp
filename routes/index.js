@@ -1,9 +1,11 @@
 var express=require('express');
+var cors = require('cors')
 var bodyParser=require('body-parser');
 var cookieParser = require('cookie-parser');
 var session = require('express-session');
 var router=express.Router();
 var mongo=require('mongodb');
+router.use(cors())
 router.use(bodyParser.json());
 router.use(cookieParser());
 router.use(session({secret: "hotshot"}));
