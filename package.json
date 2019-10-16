@@ -4,7 +4,8 @@
   "description": "App to send whatsapp msg",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+     "start": "node index.js"
   },
   "author": "Ashok Kumaresan",
   "license": "ISC",
